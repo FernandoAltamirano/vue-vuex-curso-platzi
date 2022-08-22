@@ -50,7 +50,7 @@ export default {
       <InputSearch v-model="search" />
       <ProfileCard
         :avatar="profile.avatar"
-        :username="username"
+        :username="firstname"
         :status="profile.status"
       />
       <RouterLink to="/" class="channels-title"
